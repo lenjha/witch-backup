@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function NavBar() {
+function Home() {
   return (
     <div>
-      <h1>NavBar works!</h1>
+      <h1>Home works!</h1>
     </div>
   );
 }
 
-export default NavBar;
+export default Home;
