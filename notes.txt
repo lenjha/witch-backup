@@ -1,0 +1,9 @@
+1. Break UI into Component Hierarchy
+
+2. Build static version in React
+
+3. Identify Minimal yet complete representation of UI State
+
+4. Identify where state should live
+
+5. Add inverse data flow
