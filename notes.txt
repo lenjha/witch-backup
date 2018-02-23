@@ -1,4 +1,8 @@
 1. Break UI into Component Hierarchy
+  Home
+  Inventory
+  Items
+  Crafting
 
 2. Build static version in React
 
