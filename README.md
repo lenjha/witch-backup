@@ -1,7 +1,7 @@
 # Capstone Planning
 
 ## Project Description
-![capstone proposal sheet](http://capstone-proposal.png)
+![capstone proposal sheet](img/http://capstone-proposal.png)
 
-## Diagram
-![capstone diagram wip](http://diagram.png)
+## Planning Stage Google Slides
+[a link](https://docs.google.com/presentation/d/1Hr1XLWkjYLCbcP8TJTiBAW8rStq7P3LrQpDlgGCX-ww/edit?usp=sharing)
