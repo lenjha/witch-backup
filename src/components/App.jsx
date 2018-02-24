@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Header from "./Header";
 import Home from "./Home";
-import Location from "./Location";
+import Creature from "./Creature";
 import Inventory from "./Inventory";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div>
       <Header />
       <Route exact path='/' component={Home} />
-      <Route path='/location' component={Location} />
+      <Route path='/creature' component={Creature} />
       <Route path='/inventory' component={Inventory} />
     </div>
   );
