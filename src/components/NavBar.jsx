@@ -16,8 +16,8 @@ function NavBar() {
         margin: 0;
       `}</style>
       <Link style={link} to='/'>Home</Link>
-      <Link style={link} to='/location'>Location</Link>
-      <Link style={link} to='/creature'>Creature</Link>
+      <Link style={link} to='/explore'>Explore</Link>
+      <Link style={link} to='/creaturehome'>Creature</Link>
       <Link style={link} to='/inventory'>Inventory</Link>
       <Link style={link} to='/crafting'>Crafting</Link>
     </div>

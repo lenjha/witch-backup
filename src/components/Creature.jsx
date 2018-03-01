@@ -1,14 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 
-function Creature() {
+function Creature(props) {
   return (
     <div>
-      <p>Note to self: Find another term for 'Creature' - something kinda cute but not kischy.</p>
-      <p>If user has a creature, display creatures</p>
-      <p>If not, offer link to location to find a creature</p>
+      <style jsx>{`
+      `}</style>
+
+      <h2>{props.name}</h2>
+      <i>{props.personality}</i>
+      <p>{props.parts[Math.floor(Math.random()*props.parts.length)]}</p>
+
     </div>
   );
 }
 
+Creature.propTypes = {
+  name: PropTypes.string.isRequired,
+  personality: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  parts: PropTypes.arrayOf(PropTypes.string)
+};
 export default Creature;

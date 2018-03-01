@@ -1,7 +1,7 @@
 import React from 'react';
 import Item from './Item';
 
-const masterItemList = [
+const usersItems = [
   {
     name: 'Apple',
     description: 'It\'s an apple.',
@@ -38,7 +38,7 @@ function ItemList(){
         flex-wrap: wrap;
         max-width: 1400px;
       `}</style>
-      {masterItemList.map((item, index) =>
+      {usersItems.map((item, index) =>
         <Item name={item.name}
           description={item.description}
           image={item.image}

@@ -25,3 +25,5 @@ shareicon.net - for icons
 
 FUTURE NOTES:
 User image and name (and currency?) on header (upper-right corner?)
+React transitions and animations
+  https://www.learnhowtoprogram.com/react/advanced-topics/ui-animations-and-interactivity
