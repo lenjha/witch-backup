@@ -5,12 +5,12 @@ function CreatureHome() {
   return (
     <div>
       <style jsx>{`
-        background: gray;
+        background: lightgray;
         width: 100%;
         height: 30px;
       `}</style>
 
-      <p>CreatureHome works and this is proof!</p>
+      <p>This is the Creature Home page, wherein any collected Creatures will reside.</p>
       <CreatureList />
 
     </div>

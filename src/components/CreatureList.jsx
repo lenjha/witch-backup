@@ -4,16 +4,31 @@ import Creature from './Creature';
 const usersCreatures = [
   {
     name: 'Stibium',
-    personality: 'Shy',
+    personality: 'Capricious',
     image: './../../img/apple.jpg',
     parts: ['Stibium Crystal', 'Kohl']
+  },
+  {
+    name: 'Wismut',
+    personality: 'Shy',
+    image: './../../img/apple.jpg',
+    parts: ['Witmut Horn', 'Wismut Eye']
+  },
+  {
+    name: 'Mirablis',
+    personality: 'Quirky',
+    image: './../../img/apple.jpg',
+    parts: ['Mirablis Leaf', 'Mirablis Root', 'Mirablis Flower']
   }
 ];
 
 function CreatureList() {
   return (
     <div>
-      <p>Creature works!</p>
+      <style jsx>{`
+        background: pink;
+      `}</style>
+      <p>CreatureList works!</p>
       {usersCreatures.map((creature, index) =>
         <Creature name={creature.name}
           personality={creature.personality}

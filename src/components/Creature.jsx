@@ -5,6 +5,7 @@ function Creature(props) {
   return (
     <div>
       <style jsx>{`
+        background: lightyellow;
       `}</style>
 
       <h2>{props.name}</h2>
