@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Switch, Route } from 'react-router-dom';
+// import ReactDOM from 'react-dom';
+import { Route } from 'react-router-dom';
+// import { Switch } from 'react-router-dom';
 
 import Header from './Header';
 import Home from './Home';

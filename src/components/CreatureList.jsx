@@ -28,6 +28,10 @@ function CreatureList() {
     <div>
       <style jsx>{`
         background: pink;
+        button {
+          background: lavender;
+          border-radius: 20px;
+        }
       `}</style>
       <p>These are the Creature(s) you have collected!</p>
       {usersCreatures.map((creature, index) =>
