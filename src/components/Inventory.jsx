@@ -1,10 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import ItemList from './ItemList';
 
 function Inventory() {
   return (
     <div>
-      <h1>Inventory works!</h1>
+      <h3>This is the Inventory Section!</h3>
+      <ItemList />
     </div>
   );
 }

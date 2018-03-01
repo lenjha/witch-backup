@@ -1,10 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import News from './News';
 
 function Home() {
   return (
     <div>
-      <h1>Home works!</h1>
+      <h1>Welcome!</h1>
+      <News />
     </div>
   );
 }

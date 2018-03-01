@@ -1,0 +1,66 @@
+USER - creatures, inventory
+
+Creature.propTypes = {
+  name: PropTypes.string,
+  parts: PropTypes.arrayOf(PropTypes.string)
+}
+
+CREATURES DATABASE
+{
+  "creatures": {
+    "stibium": {
+      "name": "Stibium",
+      "parts": {
+        "Stibium Crystal",
+        "Kohl"
+        },
+    },
+    "wismut": {
+      "name": "Wismut",
+      "parts": {
+        "Wismut Horn",
+        "Wismut Eye"
+        },
+    },
+    "mirabilis": {
+      "name": "Mirabilis",
+      "parts": {
+        "Mauka Leaf",
+        "Mauka Flower",
+        "Mauka Root"
+        },
+    },
+  }
+}
+
+
+
+USER GETS OBJECT CREATURE (random)
+-----------------------------------------
+var creatureArray = [
+  "Stibium",
+  "Wismut",
+  "Mirabilis"
+]
+var randomCreature = creatureArray[Math.floor(Math.random()*myArray.length)];
+document.body.innerHTML = randomCreature;
+userCreatures.push(randomCreature);
+-----------------------------------------
+
+
+USER GETS OBJECT ITEM FROM OBJECT CREATURE - ONCLICK()
+-----------------------------------------
+onClick()
+-----------------------------------------
+
+
+ITEM GOES INTO ARRAY INVENTORY
+-----------------------------------------
+inventoryArray.push(item)
+-----------------------------------------
+
+
+CRAFT ITEM
+-----------------------------------------
+inventoryArray.push(newItem), inventoryArray.remove('item1, item2, and item3')
+-----------------------------------------

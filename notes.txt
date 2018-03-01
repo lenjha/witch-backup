@@ -11,3 +11,17 @@
 4. Identify where state should live
 
 5. Add inverse data flow
+
+
+
+
+SOME RESOURCES:
+shareicon.net - for icons
+
+
+
+
+
+
+FUTURE NOTES:
+User image and name (and currency?) on header (upper-right corner?)
