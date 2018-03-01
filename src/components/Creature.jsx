@@ -6,10 +6,10 @@ function Creature(props) {
     <div>
       <style jsx>{`
         background: lightyellow;
+        margin: 0;
       `}</style>
 
       <h2>{props.name}</h2>
-      <i>{props.personality}</i>
       <p>{props.parts[Math.floor(Math.random()*props.parts.length)]}</p>
 
     </div>
@@ -18,7 +18,6 @@ function Creature(props) {
 
 Creature.propTypes = {
   name: PropTypes.string.isRequired,
-  personality: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   parts: PropTypes.arrayOf(PropTypes.string)
 };

@@ -1,25 +1,26 @@
 import React from 'react';
 import Creature from './Creature';
 
-const usersCreatures = [
+const masterCreaturesList = [
   {
     name: 'Stibium',
-    personality: 'Capricious',
     image: './../../img/apple.jpg',
     parts: ['Stibium Crystal', 'Kohl']
   },
   {
     name: 'Wismut',
-    personality: 'Shy',
     image: './../../img/apple.jpg',
-    parts: ['Witmut Horn', 'Wismut Eye']
+    parts: ['Wismut Horn', 'Wismut Eye']
   },
   {
     name: 'Mirablis',
-    personality: 'Quirky',
     image: './../../img/apple.jpg',
     parts: ['Mirablis Leaf', 'Mirablis Root', 'Mirablis Flower']
   }
+];
+
+const usersCreatures = [
+  masterCreaturesList[Math.floor(Math.random()*masterCreaturesList.length)]
 ];
 
 function CreatureList() {
@@ -28,10 +29,9 @@ function CreatureList() {
       <style jsx>{`
         background: pink;
       `}</style>
-      <p>CreatureList works!</p>
+      <p>These are the Creature(s) you have collected!</p>
       {usersCreatures.map((creature, index) =>
         <Creature name={creature.name}
-          personality={creature.personality}
           image={creature.image}
           parts={creature.parts}
           key={index}/>
