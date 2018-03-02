@@ -1,0 +1,26 @@
+STATE:
+user
+  creatures
+  inventory
+
+MasterLists:
+  creatures
+  items
+  recipes
+
+
+
+
+LOCATION
+  Area.jsx
+    summonCreature
+      userCreatures.push(randomCreature)
+
+CREATURE HOME
+CreatureHome.jsx
+  fetchItem
+    userItems.push(thisCreature.randomItem)
+
+CRAFTING
+  craft
+    if (craftingItems1 + craftingItems2) are not on recipeList, remove 
