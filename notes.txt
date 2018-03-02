@@ -13,15 +13,14 @@
 5. Add inverse data flow
 
 
+BEEN GETTING THIS ERROR:
+Uncaught TypeError: Cannot read property 'scopeDescriptorForBufferPosition' of undefined
+  only in .jsx files when hitting return or tab
+
 
 
 SOME RESOURCES:
 shareicon.net - for icons
-
-
-
-
-
 
 FUTURE NOTES:
 User image and name (and currency?) on header (upper-right corner?)
