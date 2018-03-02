@@ -5,17 +5,17 @@ const masterCreaturesList = [
   {
     name: 'Stibium',
     image: './../../img/apple.jpg',
-    parts: ['Stibium Crystal', 'Kohl']
+    items: ['Meat', 'Kohl']
   },
   {
     name: 'Wismut',
     image: './../../img/apple.jpg',
-    parts: ['Wismut Horn', 'Wismut Eye']
+    items: ['Wismut Horn', 'Wismut Eye']
   },
   {
     name: 'Mirablis',
     image: './../../img/apple.jpg',
-    parts: ['Mirablis Leaf', 'Mirablis Root', 'Mirablis Flower']
+    items: ['Potato', 'Mirablis Root', 'Mirablis Flower']
   }
 ];
 
@@ -37,7 +37,7 @@ function CreatureList() {
       {usersCreatures.map((creature, index) =>
         <Creature name={creature.name}
           image={creature.image}
-          parts={creature.parts}
+          items={creature.items}
           key={index}/>
       )}
     </div>

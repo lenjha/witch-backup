@@ -13,7 +13,7 @@
 5. Add inverse data flow
 
 
-BEEN GETTING THIS ERROR:
+BEEN GETTING THIS ERROR ON BETTY:
 Uncaught TypeError: Cannot read property 'scopeDescriptorForBufferPosition' of undefined
   only in .jsx files when hitting return or tab
 

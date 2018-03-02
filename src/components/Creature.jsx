@@ -10,7 +10,7 @@ function Creature(props) {
       `}</style>
 
       <h2>{props.name}</h2>
-      <p>{props.parts[Math.floor(Math.random()*props.parts.length)]}</p>
+      <p>{props.items[Math.floor(Math.random()*props.items.length)]}</p>
 
     </div>
   );
