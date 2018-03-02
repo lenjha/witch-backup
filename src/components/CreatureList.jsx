@@ -5,17 +5,17 @@ const masterCreaturesList = [
   {
     name: 'Stibium',
     image: './../../img/apple.jpg',
-    items: ['Meat', 'Kohl']
+    items: ['Meat', 'Egg']
   },
   {
     name: 'Wismut',
     image: './../../img/apple.jpg',
-    items: ['Wismut Horn', 'Wismut Eye']
+    items: ['Milk']
   },
   {
     name: 'Mirablis',
     image: './../../img/apple.jpg',
-    items: ['Potato', 'Mirablis Root', 'Mirablis Flower']
+    items: ['Potato', 'Onion']
   }
 ];
 

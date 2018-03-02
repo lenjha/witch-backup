@@ -40,47 +40,34 @@ import Item from './Item';
 // ];
 
 const masterItemsList = [
-{
-name:
-}
-]
-
-const usersItems = [  {
-  name: 'Stibium Crystal',
-  description: 'Shinyyyyy.',
-  image: './../../img/apple.jpg'
-},
-{
-  name: 'Kohl',
-  description: 'Fashion statement that never really went out of style.',
-  image: './../../img/apple.jpg'
-},
-{
-  name: 'Wismut Horn',
-  description: 'A little soft.',
-  image: './../../img/apple.jpg'
-},
-{
-  name: 'Wismut Eye',
-  description: 'It\'s looking right at me.',
-  image: './../../img/apple.jpg'
-},
-{
-  name: 'Mirablis Flower',
-  description: 'Mirablis are very proud of their little flower.',
-  image: './../../img/apple.jpg'
-},
-{
-  name: 'Mirablis Root',
-  description: 'It\'s kind of hairy...',
-  image: './../../img/apple.jpg'
-},
-{
-  name: 'Mirablis Leaf',
-  description: 'A lil leaf',
-  image: './../../img/apple.jpg'
-}
+  {
+    name: 'Meat',
+    description: 'Some tail meat from Stibium - it grows back with time.',
+    image: './../../img/apple.jpg'
+  },
+  {
+    name: 'Egg',
+    description: 'A Stibium egg.',
+    image: './../../img/apple.jpg'
+  },
+  {
+    name: 'Milk',
+    description: 'Milk.  It\'s got a slight purple tint.',
+    image: './../../img/apple.jpg'
+  },
+  {
+    name: 'Potato',
+    description: 'A mundane yet delicious tuber.',
+    image: './../../img/apple.jpg'
+  },
+  {
+    name: 'Onion',
+    description: 'An onion.',
+    image: './../../img/apple.jpg'
+  }
 ];
+
+const usersItems = [];
 
 function ItemList(){
   return (
