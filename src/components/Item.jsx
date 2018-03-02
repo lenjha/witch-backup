@@ -14,7 +14,7 @@ function Item(props) {
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          background: yellow;
+          background: lightyellow;
       `}</style>
 
       <h3>{props.name}</h3> <i>{props.description}</i>

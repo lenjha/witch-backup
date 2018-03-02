@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemList from './ItemList';
+import CraftingItems from './CraftingItems';
 
 function Crafting(){
   return(
@@ -11,7 +11,7 @@ function Crafting(){
         justify-content: space-around;
       `}</style>
       <h3>This is the Crafting Section!</h3>
-      <ItemList />
+      <CraftingItems />
     </div>
   );
 }

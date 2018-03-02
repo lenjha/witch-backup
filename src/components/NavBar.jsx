@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   const link={
     margin: '20px',
-    color: 'red',
+    color: 'purple',
+    fontWeight: 'bold',
     textDecoration: 'none'
   };
   return (

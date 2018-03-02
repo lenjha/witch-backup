@@ -1,42 +1,89 @@
 import React from 'react';
 import Item from './Item';
 
-const usersItems = [
+const masterItemsList = [
   {
-    name: 'Apple',
-    description: 'It\'s an apple.',
+    name: 'Stibium Crystal',
+    description: 'Shinyyyyy.',
     image: './../../img/apple.jpg'
   },
   {
-    name: 'Leaf',
-    description: 'Lucky leaf!',
+    name: 'Kohl',
+    description: 'Fashion statement that never really went out of style.',
     image: './../../img/apple.jpg'
   },
   {
-    name: 'Bookmark',
-    description: 'Saves your spot.',
+    name: 'Wismut Horn',
+    description: 'A little soft.',
     image: './../../img/apple.jpg'
   },
   {
-    name: 'Water Bottle',
-    description: 'Found on the sidewalk.',
+    name: 'Wismut Eye',
+    description: 'It\'s looking right at me.',
     image: './../../img/apple.jpg'
   },
   {
-    name: 'Freaky Meat',
-    description: 'Freaky!',
+    name: 'Mirablis Flower',
+    description: 'Mirablis are very proud of their little flower.',
+    image: './../../img/apple.jpg'
+  },
+  {
+    name: 'Mirablis Root',
+    description: 'It\'s kind of hairy...',
+    image: './../../img/apple.jpg'
+  },
+  {
+    name: 'Mirablis Leaf',
+    description: 'A lil leaf',
     image: './../../img/apple.jpg'
   }
+];
+
+const usersItems = [  {
+  name: 'Stibium Crystal',
+  description: 'Shinyyyyy.',
+  image: './../../img/apple.jpg'
+},
+{
+  name: 'Kohl',
+  description: 'Fashion statement that never really went out of style.',
+  image: './../../img/apple.jpg'
+},
+{
+  name: 'Wismut Horn',
+  description: 'A little soft.',
+  image: './../../img/apple.jpg'
+},
+{
+  name: 'Wismut Eye',
+  description: 'It\'s looking right at me.',
+  image: './../../img/apple.jpg'
+},
+{
+  name: 'Mirablis Flower',
+  description: 'Mirablis are very proud of their little flower.',
+  image: './../../img/apple.jpg'
+},
+{
+  name: 'Mirablis Root',
+  description: 'It\'s kind of hairy...',
+  image: './../../img/apple.jpg'
+},
+{
+  name: 'Mirablis Leaf',
+  description: 'A lil leaf',
+  image: './../../img/apple.jpg'
+}
 ];
 
 function ItemList(){
   return (
     <div>
       <style jsx>{`
-        background: red;
+        background: salmon;
         display: flex;
         flex-wrap: wrap;
-        max-width: 1400px;
+        max-width: 1000px;
       `}</style>
       {usersItems.map((item, index) =>
         <Item name={item.name}
