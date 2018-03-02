@@ -64,10 +64,29 @@ const masterItemsList = [
     name: 'Onion',
     description: 'An onion.',
     image: './../../img/apple.jpg'
+  },
+  {
+    name: 'Bread',
+    description: 'It smells yummy!',
+    image: './../../img/apple.jpg'
+  },
+  {
+    name: 'Onion Milk',
+    description: 'Oddly enough, it\'s not the most popular flavor.',
+    image: './../../img/apple.jpg'
+  },
+  {
+    name: 'English Breakfast',
+    description: 'Palpatations, in gustatory form.',
+    image: './../../img/apple.jpg'
   }
 ];
 
-const usersItems = [];
+const usersItems = [
+  masterItemsList[Math.floor(Math.random()*masterItemsList.length)],
+  masterItemsList[Math.floor(Math.random()*masterItemsList.length)],
+  masterItemsList[Math.floor(Math.random()*masterItemsList.length)]
+];
 
 function ItemList(){
   return (

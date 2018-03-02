@@ -12,7 +12,7 @@ function CraftingItems() {
           }
           span{
             display: flex;
-            justify-content: center;
+            justify-content: flex-end;
           }
       `}</style>
       <h3>Crafting Items</h3>

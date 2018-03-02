@@ -1,5 +1,6 @@
 import React from 'react';
 import CraftingItems from './CraftingItems';
+import CraftingSection from './CraftingSection';
 
 function Crafting(){
   return(
@@ -10,7 +11,8 @@ function Crafting(){
         display: flex;
         justify-content: space-around;
       `}</style>
-      <h3>This is the Crafting Section!</h3>
+
+      <CraftingSection />
       <CraftingItems />
     </div>
   );
