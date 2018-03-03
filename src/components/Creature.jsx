@@ -8,7 +8,7 @@ function Creature(props) {
         background: lightyellow;
         margin: 0;
       `}</style>
-      <h1>Current Pet(s)</h1>
+      <h1>Current Creature(s)</h1>
 
       <h2>{props.name}</h2>
 
