@@ -23,4 +23,5 @@ CreatureHome.jsx
 
 CRAFTING
   craft
-    if (craftingItems1 + craftingItems2) are not on recipeList, remove 
+    if (craftingItems1 + craftingItems2) are not on recipeList, remove them
+    if (craftingItems1 + craftingItems2) are on recipeList, remove them and userItems.push(newItem)

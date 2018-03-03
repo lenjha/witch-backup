@@ -3,6 +3,7 @@ import React from 'react';
 function Crafting(){
   function craft(event){
     event.preventDefault();
+    // 
     alert('Craft!');
   }
   return(

@@ -3,6 +3,7 @@ import React from 'react';
 function Area() {
   function summonCreature(event){
     event.preventDefault();
+    // usersCreatures.push(masterCreaturesList[Math.floor(Math.random()*masterCreaturesList.length)]);
     alert('Summon!');
   }
   return (
