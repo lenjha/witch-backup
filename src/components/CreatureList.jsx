@@ -1,29 +1,10 @@
 import React from 'react';
 import Creature from './Creature';
-
-const masterCreaturesList = [
-  {
-    name: 'Stibium',
-    image: './../../img/creatures/stibium.png',
-    items: ['Meat', 'Egg']
-  },
-  {
-    name: 'Wismut',
-    image: './../../img/creatures/wismut.png',
-    items: ['Milk']
-  },
-  {
-    name: 'Mirablis',
-    image: './../../img/creatures/mirablis.png',
-    items: ['Potato', 'Onion']
-  }
-];
-
-const usersCreatures = [
-  masterCreaturesList[Math.floor(Math.random()*masterCreaturesList.length)]
-];
+import MasterCreatureList from './MasterCreatureList';
 
 function CreatureList() {
+  const length = Object.keys(MasterCreatureList).length;
+  const random = Math.floor(Math.random()*length);
   return (
     <div>
       <style jsx>{`
@@ -34,12 +15,14 @@ function CreatureList() {
         }
       `}</style>
       <p>These are the Creature(s) you have collected!</p>
-      {usersCreatures.map((creature, index) =>
-        <Creature name={creature.name}
-          image={creature.image}
-          items={creature.items}
-          key={index}/>
-      )}
+      {Object.keys(MasterCreatureList).map((id, index) => {
+        if (index === random){
+          return <Creature creature={MasterCreatureList[id]}
+            key={index}/>;
+        }
+      }
+      )
+      }
     </div>
   );
 }

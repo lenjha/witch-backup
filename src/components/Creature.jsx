@@ -2,6 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Creature(props) {
+  function getItem(event){
+    event.preventDefault();
+    //userInventory.push(this.creature.parts[Math.floor(Math.random()*this.creature.parts.length)])
+    alert('You got an item!');
+  }
+  
+  const {name, image, items} = props.creature;
+
   return (
     <div>
       <style jsx>{`
@@ -12,16 +20,14 @@ function Creature(props) {
           height: auto;
         }
       `}</style>
-      <h2>{props.name}</h2>
-      <img src={props.image} />
-
+      <h2>{name}</h2>
+      <img src={image} /><br />
+      <button onClick={getItem}>Get Item!</button>
     </div>
   );
 }
 
 Creature.propTypes = {
-  name: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  parts: PropTypes.arrayOf(PropTypes.string)
+  creature: PropTypes.object
 };
 export default Creature;

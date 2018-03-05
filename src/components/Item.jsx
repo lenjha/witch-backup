@@ -3,7 +3,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // import { Link } from 'react-router-dom';
 
+
 function Item(props) {
+  const {name, description, image} = props.item;
   return (
     <div>
       <style jsx>{`
@@ -17,15 +19,13 @@ function Item(props) {
           background: lightyellow;
       `}</style>
 
-      <h3>{props.name}</h3> <i>{props.description}</i>
+      {image}<h3>{name}</h3> <i>{description}</i>
 
     </div>
   );
 }
 
 Item.propTypes = {
-  name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired
+  item: PropTypes.object
 };
 export default Item;

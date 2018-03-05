@@ -3,7 +3,8 @@ import React from 'react';
 function Crafting(){
   function craft(event){
     event.preventDefault();
-    // 
+    // remove the used items from inventory
+    // if the items used match up to the items in a formula's ingredients section, add the formula result to inventory
     alert('Craft!');
   }
   return(

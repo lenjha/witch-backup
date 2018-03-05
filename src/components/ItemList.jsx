@@ -1,5 +1,6 @@
 import React from 'react';
 import Item from './Item';
+import MasterItemList from './MasterItemList';
 
 // const masterItemsList = [
 //   {
@@ -39,56 +40,17 @@ import Item from './Item';
 //   }
 // ];
 
-const masterItemsList = [
-  {
-    name: 'Meat',
-    description: 'Some tail meat from Stibium - it grows back with time.',
-    image: './../../img/apple.jpg'
-  },
-  {
-    name: 'Egg',
-    description: 'A Stibium egg.',
-    image: './../../img/apple.jpg'
-  },
-  {
-    name: 'Milk',
-    description: 'Milk.  It\'s got a slight purple tint.',
-    image: './../../img/apple.jpg'
-  },
-  {
-    name: 'Potato',
-    description: 'A mundane yet delicious tuber.',
-    image: './../../img/apple.jpg'
-  },
-  {
-    name: 'Onion',
-    description: 'An onion.',
-    image: './../../img/apple.jpg'
-  },
-  {
-    name: 'Bread',
-    description: 'It smells yummy!',
-    image: './../../img/apple.jpg'
-  },
-  {
-    name: 'Onion Milk',
-    description: 'Oddly enough, it\'s not the most popular flavor.',
-    image: './../../img/apple.jpg'
-  },
-  {
-    name: 'English Breakfast',
-    description: 'Palpatations, in gustatory form.',
-    image: './../../img/apple.jpg'
-  }
-];
 
-const usersItems = [
-  masterItemsList[Math.floor(Math.random()*masterItemsList.length)],
-  masterItemsList[Math.floor(Math.random()*masterItemsList.length)],
-  masterItemsList[Math.floor(Math.random()*masterItemsList.length)]
-];
+// const userInventory = [
+//   masterItemsList[Math.floor(Math.random()*masterItemsList.length)],
+//   masterItemsList[Math.floor(Math.random()*masterItemsList.length)],
+//   masterItemsList[Math.floor(Math.random()*masterItemsList.length)],
+//   masterItemsList[Math.floor(Math.random()*masterItemsList.length)]
+// ];
 
 function ItemList(){
+  const itemsLength = Object.keys(MasterItemList).length;
+  const randomItem = Math.floor(Math.random()*itemsLength);
   return (
     <div>
       <style jsx>{`
@@ -97,11 +59,12 @@ function ItemList(){
         flex-wrap: wrap;
         max-width: 1000px;
       `}</style>
-      {usersItems.map((item, index) =>
-        <Item name={item.name}
-          description={item.description}
-          image={item.image}
-          key={index}/>
+      {Object.keys(MasterItemList).map((id, index) => {
+        if (index === randomItem){
+          return <Item item={MasterItemList[id]}
+            key={index}/>;
+        }
+      }
       )}
     </div>
   );
