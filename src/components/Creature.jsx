@@ -7,10 +7,13 @@ function Creature(props) {
       <style jsx>{`
         background: lightyellow;
         margin: 0;
+        img {
+          width: 120px;
+          height: auto;
+        }
       `}</style>
-      <h1>Current Creature(s)</h1>
-
       <h2>{props.name}</h2>
+      <img src={props.image} />
 
     </div>
   );

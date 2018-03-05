@@ -4,17 +4,17 @@ import Creature from './Creature';
 const masterCreaturesList = [
   {
     name: 'Stibium',
-    image: './../../img/apple.jpg',
+    image: './../../img/creatures/stibium.png',
     items: ['Meat', 'Egg']
   },
   {
     name: 'Wismut',
-    image: './../../img/apple.jpg',
+    image: './../../img/creatures/wismut.png',
     items: ['Milk']
   },
   {
     name: 'Mirablis',
-    image: './../../img/apple.jpg',
+    image: './../../img/creatures/mirablis.png',
     items: ['Potato', 'Onion']
   }
 ];
