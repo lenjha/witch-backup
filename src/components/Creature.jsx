@@ -7,7 +7,7 @@ function Creature(props) {
     //userInventory.push(this.creature.parts[Math.floor(Math.random()*this.creature.parts.length)])
     alert('You got an item!');
   }
-  
+
   const {name, image, items} = props.creature;
 
   return (
@@ -18,6 +18,11 @@ function Creature(props) {
         img {
           width: 120px;
           height: auto;
+        }
+        button {
+          border-radius: 20px;
+          background: #3e5170;
+          color: white;
         }
       `}</style>
       <h2>{name}</h2>

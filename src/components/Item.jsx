@@ -17,9 +17,14 @@ function Item(props) {
           align-items: center;
           flex-direction: column;
           background: lightyellow;
+
+        img {
+          width: 50px;
+          height: auto;
+        }
       `}</style>
 
-      {image}<h3>{name}</h3> <i>{description}</i>
+      <img src={image} /><h3>{name}</h3> <i>{description}</i>
 
     </div>
   );
