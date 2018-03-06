@@ -39,3 +39,45 @@ function addNewCreature(event){
   };
   props.onAddNewCreature({});
 };
+
+
+
+
+create single source of truth - createStore
+- reducers
+  update/mutate state in store
+- actions
+    describes that something happened,
+    says that the state should change in response
+
+dispatch by store, handled by reducer, reducer tells actions to go - data in action is 'payload'
+
+getState() - returns store's current state
+dispatch() - sends actions to change state
+subscribe() - register callback invoked when store's state is updated
+
+connect() - takes component as argument, returns with added functionality
+  adds dispatch(), support to refine mapStateToProps()
+dispatch() - lets components dispatch Redux actions within their own code
+mapStateToProps() - matches state items from Redux store to their corresponding React props
+
+
+make redux store
+  use createStore() method
+configure react-redux provider
+  config React-Redux <Provider> parent component to provide React components access to connect()
+    add in place of <AppContainer>, inside of <HashRouter>
+    pass Redux store to <Provider> as a prop
+      <Provider store={store}>
+connect components to Store
+  determine which components need store access and connect them
+      higher order components take existing comp, returns second
+dispatch actions to mutate store state
+  dispatch, make action, add action payload, incorporate reducer code
+
+
+
+JEST - testing
+  test('two plus two is four', () => {
+    expect(2+2).toBe(4);
+  });
