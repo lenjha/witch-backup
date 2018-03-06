@@ -3,17 +3,17 @@ import Wismut from './../../img/creatures/wismut.png';
 import Mirablis from './../../img/creatures/mirablis.png';
 
 export default{
-  1 : {
+  stibium : {
     name: 'Stibium',
     image: Stibium,
     items: ['Meat', 'Egg']
   },
-  2 : {
+  wismut : {
     name: 'Wismut',
     image: Wismut,
     items: ['Milk']
   },
-  3 : {
+  mirablis : {
     name: 'Mirablis',
     image: Mirablis,
     items: ['Potato', 'Onion']

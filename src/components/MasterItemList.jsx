@@ -1,47 +1,47 @@
 import PlaceholderPic from './../../img/heart.png';
 
 export default{
-  1 : {
+  meat : {
     name: 'Meat',
     description: 'Some tail meat from Stibium - it grows back with time.',
     image: PlaceholderPic
   },
-  2 : {
+  egg : {
     name: 'Egg',
     description: 'A Stibium egg.',
     image: PlaceholderPic
   },
-  3 : {
+  milk : {
     name: 'Milk',
     description: 'Milk.  It\'s got a slight purple tint.',
     image: PlaceholderPic
   },
-  4 : {
+  potato : {
     name: 'Potato',
     description: 'A mundane yet delicious tuber.',
     image: PlaceholderPic
   },
-  5 : {
+  onion : {
     name: 'Onion',
     description: 'An onion.',
     image: PlaceholderPic
   },
-  6 : {
+  bread : {
     name: 'Bread',
     description: 'It smells yummy!',
     image: PlaceholderPic
   },
-  7 : {
+  onionMilk : {
     name: 'Onion Milk',
     description: 'Oddly enough, it\'s not the most popular flavor.',
     image: PlaceholderPic
   },
-  8 : {
+  milkToast : {
     name: 'Milk Toast',
     description: 'Fairly inoffensive food, light and easy to digest.',
     image: PlaceholderPic
   },
-  9 : {
+  englishBreakfast : {
     name: 'English Breakfast',
     description: 'Palpatations, in gustatory form.',
     image: PlaceholderPic
