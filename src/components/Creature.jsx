@@ -21,7 +21,7 @@ function Creature(props) {
         }
         button {
           border-radius: 20px;
-          background: #3e5170;
+          background: blue;
           color: white;
         }
       `}</style>
