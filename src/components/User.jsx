@@ -10,73 +10,79 @@
 //   inventory: PropTypes.object
 // }
 
-// export default state = {
-//   user: {
-//     creatures: [stibium],
-//     inventory: [bread]
-//   },
-//   creaturesById: {
-// stibium : {
-//   name: 'Stibium',
-//   image: Stibium,
-//   items: ['Meat', 'Egg']
-// },
-// wismut : {
-//   name: 'Wismut',
-//   image: Wismut,
-//   items: ['Milk']
-// },
-// mirablis : {
-//   name: 'Mirablis',
-//   image: Mirablis,
-//   items: ['Potato', 'Onion']
-// }
-//   },
-//   inventoryById: {
-// meat : {
-//   name: 'Meat',
-//   description: 'Some tail meat from Stibium - it grows back with time.',
-//   image: PlaceholderPic
-// },
-// egg : {
-//   name: 'Egg',
-//   description: 'A Stibium egg.',
-//   image: PlaceholderPic
-// },
-// milk : {
-//   name: 'Milk',
-//   description: 'Milk.  It\'s got a slight purple tint.',
-//   image: PlaceholderPic
-// },
-// potato : {
-//   name: 'Potato',
-//   description: 'A mundane yet delicious tuber.',
-//   image: PlaceholderPic
-// },
-// onion : {
-//   name: 'Onion',
-//   description: 'An onion.',
-//   image: PlaceholderPic
-// },
-// bread : {
-//   name: 'Bread',
-//   description: 'It smells yummy!',
-//   image: PlaceholderPic
-// },
-// onionMilk : {
-//   name: 'Onion Milk',
-//   description: 'Oddly enough, it\'s not the most popular flavor.',
-//   image: PlaceholderPic
-// },
-// milkToast : {
-//   name: 'Milk Toast',
-//   description: 'Fairly inoffensive food, light and easy to digest.',
-//   image: PlaceholderPic
-// },
-// englishBreakfast : {
-//   name: 'English Breakfast',
-//   description: 'Palpatations, in gustatory form.',
-//   image: PlaceholderPic
-// }
-//   }
-// };
+import Stibium from './../../img/creatures/stibium.png';
+import Wismut from './../../img/creatures/wismut.png';
+import Mirablis from './../../img/creatures/mirablis.png';
+
+import PlaceholderPic from './../../img/heart.png';
+
+export default {
+  user: {
+    creatures: [1],
+    inventory: [2]
+  },
+  creaturesById: {
+    1 : {
+      name: 'Stibium',
+      image: Stibium,
+      items: ['Meat', 'Egg']
+    },
+    2 : {
+      name: 'Wismut',
+      image: Wismut,
+      items: ['Milk']
+    },
+    3 : {
+      name: 'Mirablis',
+      image: Mirablis,
+      items: ['Potato', 'Onion']
+    }
+  },
+  inventoryById: {
+    1 : {
+      name: 'Meat',
+      description: 'Some tail meat from Stibium - it grows back with time.',
+      image: PlaceholderPic
+    },
+    2 : {
+      name: 'Egg',
+      description: 'A Stibium egg.',
+      image: PlaceholderPic
+    },
+    3 : {
+      name: 'Milk',
+      description: 'Milk.  It\'s got a slight purple tint.',
+      image: PlaceholderPic
+    },
+    4 : {
+      name: 'Potato',
+      description: 'A mundane yet delicious tuber.',
+      image: PlaceholderPic
+    },
+    onion : {
+      name: 'Onion',
+      description: 'An onion.',
+      image: PlaceholderPic
+    },
+    bread : {
+      name: 'Bread',
+      description: 'It smells yummy!',
+      image: PlaceholderPic
+    },
+    onionMilk : {
+      name: 'Onion Milk',
+      description: 'Oddly enough, it\'s not the most popular flavor.',
+      image: PlaceholderPic
+    },
+    milkToast : {
+      name: 'Milk Toast',
+      description: 'Fairly inoffensive food, light and easy to digest.',
+      image: PlaceholderPic
+    },
+    englishBreakfast : {
+      name: 'English Breakfast',
+      description: 'Palpatations, in gustatory form.',
+      image: PlaceholderPic
+    }
+  }
+};

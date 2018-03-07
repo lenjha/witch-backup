@@ -20,8 +20,7 @@ function CreatureList() {
           return <Creature creature={MasterCreatureList[id]}
             key={index}/>;
         }
-      }
-      )
+      })
       }
     </div>
   );
