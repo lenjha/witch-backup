@@ -6,7 +6,6 @@ function Crafting(){
   return(
     <div>
       <style jsx>{`
-        background: salmon;
         padding: 10px;
         display: flex;
         justify-content: space-around;

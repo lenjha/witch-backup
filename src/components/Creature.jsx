@@ -13,19 +13,15 @@ function Creature(props) {
   return (
     <div>
       <style jsx>{`
-        background: lightyellow;
         margin: 0;
         img {
           width: 120px;
           height: auto;
-        }
-        button {
-          border-radius: 20px;
-          background: blue;
-          color: white;
+          margin: 5px;
         }
       `}</style>
       <h2>{name}</h2>
+      <p>holding {items}</p>
       <img src={image} /><br />
       <button onClick={getItem}>Get Item!</button>
     </div>

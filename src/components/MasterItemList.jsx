@@ -2,30 +2,30 @@ import PlaceholderPic from './../../img/heart.png';
 
 export default{
   meat : {
-    name: 'MASTERITEMLIST',
+    name: 'MasterMeat',
+    description: 'This be from MasterItemList',
+    image: PlaceholderPic
+  },
+  egg : {
+    name: 'MasterEgg',
+    description: 'This be from MasterItemList',
+    image: PlaceholderPic
+  },
+  milk : {
+    name: 'MasterMilk',
+    description: 'This be from MasterItemList',
+    image: PlaceholderPic
+  },
+  potato : {
+    name: 'MasterPotato',
+    description: 'This be from MasterItemList',
+    image: PlaceholderPic
+  },
+  onion : {
+    name: 'MasterOnion',
     description: 'This be from MasterItemList',
     image: PlaceholderPic
   }
-  // egg : {
-  //   name: 'Egg',
-  //   description: 'A Stibium egg.',
-  //   image: PlaceholderPic
-  // },
-  // milk : {
-  //   name: 'Milk',
-  //   description: 'Milk.  It\'s got a slight purple tint.',
-  //   image: PlaceholderPic
-  // },
-  // potato : {
-  //   name: 'Potato',
-  //   description: 'A mundane yet delicious tuber.',
-  //   image: PlaceholderPic
-  // },
-  // onion : {
-  //   name: 'Onion',
-  //   description: 'An onion.',
-  //   image: PlaceholderPic
-  // },
   // bread : {
   //   name: 'Bread',
   //   description: 'It smells yummy!',

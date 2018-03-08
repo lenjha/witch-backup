@@ -5,13 +5,10 @@ function CreatureHome() {
   return (
     <div>
       <style jsx>{`
-        background: lightgray;
       `}</style>
 
       <p>This is the Creature Home page, wherein any collected Creatures will reside.</p>
       <CreatureList />
-
-      <p>I still gotta find a better word for 'Creature' though...</p>
     </div>
   );
 }

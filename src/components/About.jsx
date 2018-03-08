@@ -4,10 +4,10 @@ function About(){
   return(
     <div>
       <style jsx>{`
-        background: salmon;
+        background: lightgray;
       `}</style>
       <h3>This is the About Section!</h3>
-      <p>Witcherie is a creature harvesting game with crafting elements.</p>
+      <p>Witcherie will be a creature harvesting game with crafting elements.</p>
       <p>A user would be able to summon a Creature in the Explore section.</p>
       <p>The Creature would then be visible in the Creatures section.</p>
       <p>The User would then get an Item from the Creature.</p>

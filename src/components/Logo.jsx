@@ -1,8 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import ReactDOM from 'react-dom';
 import heart from './../../img/heart.png';
 
+
 function Logo() {
+  const link={
+    margin: '20px',
+    color: 'black',
+    fontWeight: 'bold',
+    textDecoration: 'none'
+  };
   return (
     <div>
       <style jsx>{`
@@ -18,7 +26,7 @@ function Logo() {
         }
       `}</style>
       <img src={heart} />
-      <h1>Witcherie</h1>
+      <Link style={link} to='/'><h1>Witcherie</h1></Link>
     </div>
   );
 }

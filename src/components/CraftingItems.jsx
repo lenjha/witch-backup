@@ -8,7 +8,6 @@ function CraftingItems() {
       <style jsx>{`
           h3{
             text-align: center;
-            background: yellow;
           }
           span{
             display: flex;

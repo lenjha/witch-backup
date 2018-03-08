@@ -1,23 +1,23 @@
 import Stibium from './../../img/creatures/stibium.png';
-// import Wismut from './../../img/creatures/wismut.png';
-// import Mirablis from './../../img/creatures/mirablis.png';
+import Wismut from './../../img/creatures/wismut.png';
+import Mirablis from './../../img/creatures/mirablis.png';
 
 export default{
   stibium : {
-    name: 'This is the MasterCreatureList Stibium',
+    name: 'MasterStibium',
     image: Stibium,
     items: ['Meat', 'Egg']
   },
-  // wismut : {
-  //   name: 'Wismut',
-  //   image: Wismut,
-  //   items: ['Milk']
-  // },
-  // mirablis : {
-  //   name: 'Mirablis',
-  //   image: Mirablis,
-  //   items: ['Potato', 'Onion']
-  // }
+  wismut : {
+    name: 'MasterWismut',
+    image: Wismut,
+    items: ['Milk']
+  },
+  mirablis : {
+    name: 'MasterMirablis',
+    image: Mirablis,
+    items: ['Potato', 'Onion']
+  }
 };
 
 // Object.keys(objectName).map(key =>

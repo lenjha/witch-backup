@@ -95,6 +95,7 @@ class App extends React.Component {
 
   handleAddCreature(){
     this.setState({});
+    console.log('state is...');
     console.log(this.state);
   }
 

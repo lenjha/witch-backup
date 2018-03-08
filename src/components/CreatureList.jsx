@@ -8,13 +8,7 @@ function CreatureList() {
   return (
     <div>
       <style jsx>{`
-        background: pink;
-        button {
-          background: lavender;
-          border-radius: 20px;
-        }
       `}</style>
-      <p>These are the Creature(s) you have collected!</p>
       {Object.keys(MasterCreatureList).map((id, index) => {
         if (index === random){
           return <Creature creature={MasterCreatureList[id]}

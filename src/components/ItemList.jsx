@@ -8,7 +8,6 @@ function ItemList(){
   return (
     <div>
       <style jsx>{`
-        background: salmon;
         display: flex;
         flex-wrap: wrap;
         max-width: 1000px;

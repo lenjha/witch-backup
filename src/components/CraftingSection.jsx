@@ -10,12 +10,9 @@ function Crafting(){
   return(
     <div>
       <style jsx>{`
-        background: red;
         width: 100%;
         button {
-          background: darkred;
-          border-radius: 20px;
-          color: white;
+          width: 100px;
         }
       `}</style>
       <h3>This is the Crafting Section!</h3>

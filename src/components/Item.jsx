@@ -16,7 +16,6 @@ function Item(props) {
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          background: lightyellow;
 
         img {
           width: 50px;

@@ -7,7 +7,6 @@ function Header() {
   return (
     <div>
       <style jsx>{`
-        background: honeydew;
         width: 100%;
         margin: 0;
         h1 {

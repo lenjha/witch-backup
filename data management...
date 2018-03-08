@@ -14,12 +14,12 @@ MasterLists:
 LOCATION
   Area.jsx
     summonCreature
-      userCreatures.push(randomCreature)
+      state.user.creatures.push(randomCreature from state.creaturedById)
 
 CREATURE HOME
 CreatureHome.jsx
   fetchItem
-    userItems.push(thisCreature.randomItem)
+    state.user.inventory.push(randomItem from clickedCreature.items)
 
 CRAFTING
   craft
