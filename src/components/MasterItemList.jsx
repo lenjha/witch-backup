@@ -1,30 +1,30 @@
-import PlaceholderPic from './../../img/heart.png';
+// import PlaceholderPic from './../../img/heart.png';
+
+import MeatImg from './../../img/items/meat.png';
+import EggImg from './../../img/items/egg.png';
+import MilkImg from './../../img/items/milk.png';
+import WheatImg from './../../img/items/wheat.png';
 
 export default{
   meat : {
     name: 'MasterMeat',
-    description: 'This be from MasterItemList',
-    image: PlaceholderPic
+    description: 'Some tail meat from Stibium - it grows back with time.',
+    image: MeatImg
   },
   egg : {
     name: 'MasterEgg',
-    description: 'This be from MasterItemList',
-    image: PlaceholderPic
+    description: 'A Stibium egg.',
+    image: EggImg
   },
   milk : {
     name: 'MasterMilk',
-    description: 'This be from MasterItemList',
-    image: PlaceholderPic
+    description: 'Milk.  It\'s got a slight purple tint.',
+    image: MilkImg
   },
-  potato : {
-    name: 'MasterPotato',
-    description: 'This be from MasterItemList',
-    image: PlaceholderPic
-  },
-  onion : {
-    name: 'MasterOnion',
-    description: 'This be from MasterItemList',
-    image: PlaceholderPic
+  wheat : {
+    name: 'MasterWheat',
+    description: 'Wheat.  Don\'t get too excited.',
+    image: WheatImg
   }
   // bread : {
   //   name: 'Bread',

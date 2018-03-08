@@ -3,10 +3,8 @@ import React from 'react';
 
 function News() {
   return (
-    <div>
+    <div className='section'>
       <style jsx>{`
-        background: lavender;
-        margin: 0;
       `}</style>
       <h1>Community News</h1>
       <h4>Witcherie is being worked on!</h4>

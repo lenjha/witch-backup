@@ -15,15 +15,18 @@ function Creature(props) {
       <style jsx>{`
         margin: 0;
         img {
-          width: 120px;
+          width: 200px;
           height: auto;
           margin: 5px;
         }
+
       `}</style>
-      <h2>{name}</h2>
-      <p>holding {items}</p>
-      <img src={image} /><br />
-      <button onClick={getItem}>Get Item!</button>
+      <div className='creature'>
+        <h2>{name}</h2>
+        <p>Has: {items}</p>
+        <img src={image} /><br />
+        <button onClick={getItem}>Get Item!</button>
+      </div>
     </div>
   );
 }

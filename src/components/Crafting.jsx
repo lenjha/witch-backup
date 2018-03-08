@@ -4,11 +4,10 @@ import CraftingSection from './CraftingSection';
 
 function Crafting(){
   return(
-    <div>
+    <div className='section'>
       <style jsx>{`
         padding: 10px;
         display: flex;
-        justify-content: space-around;
       `}</style>
 
       <CraftingSection />

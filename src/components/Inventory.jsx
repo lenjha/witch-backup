@@ -4,8 +4,9 @@ import ItemList from './ItemList';
 
 function Inventory() {
   return (
-    <div>
-      <h3>This is the Inventory Section!</h3>
+    <div className='section'>
+      <h3>Inventory</h3>
+      <p>This is the user's inventory section.</p>
       <ItemList />
     </div>
   );

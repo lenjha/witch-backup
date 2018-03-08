@@ -7,13 +7,22 @@ function NavBar() {
     margin: '20px',
     color: '#3a3d42',
     fontWeight: 'bold',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    display: 'inline'
   };
   return (
-    <div>
+    <div className='nav-section'>
       <style jsx>{`
-        width: 100%;
         margin: 0;
+        min-height: 19px;
+        background: #f9bbbd;
+        border: 3px solid white;
+        padding: 2px;
+        @media screen and (max-width: 400px){
+          .nav-section{
+            text-align: center;
+          }
+        }
       `}</style>
       <Link style={link} to='/explore'>Explore</Link>
       <Link style={link} to='/creaturehome'>Creature</Link>

@@ -7,18 +7,11 @@ import PropTypes from 'prop-types';
 function Item(props) {
   const {name, description, image} = props.item;
   return (
-    <div>
+    <div className='item'>
       <style jsx>{`
-        width: 150px;
-        height: 150px;
-        margin: 10px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
 
         img {
-          width: 50px;
+          max-width: 100px;
           height: auto;
         }
       `}</style>

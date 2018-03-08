@@ -2,9 +2,8 @@ import React from 'react';
 
 function About(){
   return(
-    <div>
+    <div className='section'>
       <style jsx>{`
-        background: lightgray;
       `}</style>
       <h3>This is the About Section!</h3>
       <p>Witcherie will be a creature harvesting game with crafting elements.</p>

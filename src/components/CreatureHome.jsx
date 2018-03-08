@@ -3,7 +3,7 @@ import React from 'react';
 import CreatureList from './CreatureList';
 function CreatureHome() {
   return (
-    <div>
+    <div className='section'>
       <style jsx>{`
       `}</style>
 

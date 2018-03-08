@@ -3,7 +3,7 @@ import Area from './Area';
 
 function Explore() {
   return (
-    <div>
+    <div className='section'>
       <p>Explore information here - begins with a forest.</p>
       <p>User will be able to find an item or creature here.</p>
       <Area />

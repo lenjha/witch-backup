@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // import ReactDOM from 'react-dom';
 import heart from './../../img/heart.png';
+import logo from './../../img/logo.png';
 
 
 function Logo() {
@@ -9,7 +10,7 @@ function Logo() {
     margin: '20px',
     color: 'black',
     fontWeight: 'bold',
-    textDecoration: 'none'
+    textDecoration: 'none',
   };
   return (
     <div>
@@ -17,16 +18,16 @@ function Logo() {
         display: flex;
         align-items: center;
         img {
-          width: 100px;
-          height: 100px;
+          width: 35%;
+          max-width: 900px;
         }
         h1 {
           font-size: 5em;
           text-align: center;
         }
       `}</style>
-      <img src={heart} />
-      <Link style={link} to='/'><h1>Witcherie</h1></Link>
+
+      <Link style={link} to='/'><img src={logo}></img></Link>
     </div>
   );
 }

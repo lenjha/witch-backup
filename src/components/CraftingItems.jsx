@@ -9,15 +9,16 @@ function CraftingItems() {
           h3{
             text-align: center;
           }
-          span{
+          .craft-list{
             display: flex;
-            justify-content: flex-end;
+            align-content: center;
           }
+
       `}</style>
       <h3>Crafting Items</h3>
-      <span>
+      <div className='craft-list'>
         <ItemList />
-      </span>
+      </div>
     </div>
   );
 }
