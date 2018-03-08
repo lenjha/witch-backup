@@ -107,10 +107,10 @@ class App extends React.Component {
             `}</style>
         <Header />
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/explore' component={Explore} />
-          <Route path='/creaturehome' component={CreatureHome} />
-          <Route path='/inventory' component={Inventory} />
+          <Route exact path='/' render={Home} />
+          <Route path='/explore' render={Explore} />
+          <Route path='/creaturehome' render={CreatureHome} />
+          <Route path='/inventory' render={Inventory} />
           <Route path='/crafting' component={Crafting} />
           <Route component={Error404} />
         </Switch>
