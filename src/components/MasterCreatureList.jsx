@@ -1,6 +1,6 @@
-import Stibium from './../../img/creatures/stibium.png';
-import Wismut from './../../img/creatures/wismut.png';
-import Mirablis from './../../img/creatures/mirablis.png';
+import Stibium from './../../img/creatures/stibium2.png';
+import Wismut from './../../img/creatures/wismut2.png';
+import Mirablis from './../../img/creatures/mirablis2.png';
 
 export default{
   stibium : {

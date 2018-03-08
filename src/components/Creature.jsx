@@ -13,10 +13,11 @@ function Creature(props) {
   return (
     <div>
       <style jsx>{`
-        margin: 0;
         img {
           width: 200px;
-          height: auto;
+          margin: 5px;
+        }
+        .creature{
           margin: 5px;
         }
 

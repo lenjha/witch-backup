@@ -11,6 +11,12 @@ function Home() {
           display: flex;
           justify-content: center;
         }
+        @media screen and (max-width: 600px){
+          span{
+            display: block;
+            min-height: 10px;
+          }
+        }
       `}</style>
       <h1>Welcome!</h1>
       <span>

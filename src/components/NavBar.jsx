@@ -18,6 +18,7 @@ function NavBar() {
         background: #f9bbbd;
         border: 3px solid white;
         padding: 2px;
+
         @media screen and (max-width: 400px){
           .nav-section{
             text-align: center;

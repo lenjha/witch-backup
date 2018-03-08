@@ -9,7 +9,6 @@ function Item(props) {
   return (
     <div className='item'>
       <style jsx>{`
-
         img {
           max-width: 100px;
           height: auto;

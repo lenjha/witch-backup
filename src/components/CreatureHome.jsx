@@ -6,7 +6,7 @@ function CreatureHome() {
     <div className='section'>
       <style jsx>{`
       `}</style>
-
+      <h2>Creatures</h2>
       <p>This is the Creature Home page, wherein any collected Creatures will reside.</p>
       <CreatureList />
     </div>

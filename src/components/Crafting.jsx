@@ -6,12 +6,15 @@ function Crafting(){
   return(
     <div className='section'>
       <style jsx>{`
-        padding: 10px;
-        display: flex;
+          .craft-body{            
+            padding: 10px;
+            display: flex;
+          }
       `}</style>
-
-      <CraftingSection />
-      <CraftingItems />
+      <div className='craft-body'>
+        <CraftingSection />
+        <CraftingItems />
+      </div>
     </div>
   );
 }

@@ -121,7 +121,7 @@ class App extends React.Component {
             }
 
             .section {
-              min-height: 60vh;
+              min-height: 50vh;
               border: 5px white solid;
               padding: 10px;
               border-radius: 10px;

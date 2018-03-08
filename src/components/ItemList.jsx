@@ -13,6 +13,7 @@ function ItemList(){
         display: flex;
         flex-wrap: wrap;
         max-width: 1000px;
+        justify-content: center;
       `}</style>
       {Object.keys(MasterItemList).map((id, index) => {
         if (index === randomItem){

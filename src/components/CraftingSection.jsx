@@ -15,10 +15,7 @@ function Crafting(){
           width: 100px;
         }
       `}</style>
-      <h3>This is the Crafting Section!</h3>
-      <p>First Item to Use</p>
-      <p>Second Item to Use</p>
-      <p>Possible Third Item to Use</p>
+      <h2>Crafting</h2>
       <button onClick={craft}>CRAFT!</button>
     </div>
   );

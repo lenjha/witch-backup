@@ -1,9 +1,9 @@
 // import PlaceholderPic from './../../img/heart.png';
 
-import MeatImg from './../../img/items/meat.png';
-import EggImg from './../../img/items/egg.png';
-import MilkImg from './../../img/items/milk.png';
-import WheatImg from './../../img/items/wheat.png';
+import MeatImg from './../../img/items/meat2.png';
+import EggImg from './../../img/items/egg2.png';
+import MilkImg from './../../img/items/milk2.png';
+import WheatImg from './../../img/items/wheat2.png';
 
 export default{
   meat : {

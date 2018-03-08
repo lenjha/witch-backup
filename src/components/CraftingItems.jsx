@@ -13,7 +13,6 @@ function CraftingItems() {
             display: flex;
             align-content: center;
           }
-
       `}</style>
       <h3>Crafting Items</h3>
       <div className='craft-list'>
